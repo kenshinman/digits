@@ -20,7 +20,6 @@ const MainContextProvider = ({children}) => {
     artist: 'Digits Radio',
     album: 'Digits 1024 Radio',
     genre: 'New Data',
-    date: '2014-05-20T07:00:00+00:00',
 
     artwork: require('../../assets/artwork.jpg'),
   });
@@ -101,8 +100,10 @@ const MainContextProvider = ({children}) => {
   }, [playBackState]);
 
   useEffect(() => {
+    // TrackPlayer.destroy();
     TrackPlayer.add([track]);
   }, [track]);
+
   return (
     <MainContext.Provider
       value={{

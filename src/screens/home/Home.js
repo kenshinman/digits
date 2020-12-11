@@ -64,6 +64,7 @@ const styles = StyleSheet.create({
   artist: {
     fontSize: 18,
     marginBottom: 15,
+    textAlign: 'center',
   },
   title: {
     fontSize: 22,
