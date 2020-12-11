@@ -8,7 +8,7 @@ import {colors, globalStyle} from '../../constants';
 import {MainContext} from '../../contexts/MainContext';
 
 const Home = () => {
-  const {mainState, play, pause, trackArtist, trackTitle} = useContext(
+  const {mainState, play, pause, trackArtist, trackTitle, playing} = useContext(
     MainContext,
   );
 
@@ -22,7 +22,7 @@ const Home = () => {
         style={[
           globalStyle.centeredText,
           globalStyle.boldText,
-          styles.nowPlayining,
+          styles.nowPlaying,
         ]}>
         Now Playing
       </Text>
@@ -32,17 +32,21 @@ const Home = () => {
         style={[
           globalStyle.centeredText,
           globalStyle.boldText,
-          styles.nowPlayining,
+          styles.nowPlaying,
         ]}>
         Artist
       </Text>
-      <Text>{trackArtist}</Text>
-      <TouchableNativeFeedback onPress={play}>
-        <PlayIcon size={100} color={colors.primary} />
-      </TouchableNativeFeedback>
-      <TouchableNativeFeedback onPress={pause}>
-        <PauseIcon size={100} color={colors.primary} />
-      </TouchableNativeFeedback>
+      <Text style={[styles.artist]}>{trackArtist}</Text>
+
+      {!playing ? (
+        <TouchableNativeFeedback onPress={play}>
+          <PlayIcon size={100} color={colors.primary} />
+        </TouchableNativeFeedback>
+      ) : (
+        <TouchableNativeFeedback onPress={pause}>
+          <PauseIcon size={100} color={colors.primary} />
+        </TouchableNativeFeedback>
+      )}
     </FullScreen>
   );
 };
@@ -53,9 +57,13 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     padding: 30,
   },
-  nowPlayining: {
-    marginVertical: 10,
+  nowPlaying: {
+    marginTop: 20,
+    fontSize: 16,
+  },
+  artist: {
     fontSize: 18,
+    marginBottom: 15,
   },
   title: {
     fontSize: 22,

@@ -3,38 +3,31 @@ import TrackPlayer, {
   useTrackPlayerProgress,
   usePlaybackState,
   useTrackPlayerEvents,
+  TrackPlayerEvents,
 } from 'react-native-track-player';
 
 export const MainContext = createContext();
 
-var track = {
-  id: 'unique track id', // Must be a string, required
-
-  url: 'http://epsilon.shoutca.st:9139/', // Load media from the file system
-
-  title: 'Digits 1024 Radio',
-  artist: 'Digits Radio',
-  album: new Date().toDateString(),
-  genre: 'New Data',
-  date: '2014-05-20T07:00:00+00:00', // RFC 3339
-
-  artwork:
-    'https://digitsound.com.ng/wp-content/uploads/2015/05/Great-Examples-of-Great-Sound-Design2.jpg', // Load artwork from the network
-};
-
 const MainContextProvider = ({children}) => {
+  const playBackState = usePlaybackState();
+
+  const [track, setTrack] = useState({
+    id: 'unique track id',
+
+    url: 'http://epsilon.shoutca.st:9139/',
+
+    title: 'Digits 1024 Radio',
+    artist: 'Digits Radio',
+    album: 'Digits 1024 Radio',
+    genre: 'New Data',
+    date: '2014-05-20T07:00:00+00:00',
+
+    artwork: require('../../assets/artwork.jpg'),
+  });
   const [mainState, setMainState] = useState({});
   const [trackTitle, setTrackTitle] = useState('');
   const [trackArtist, setTrackArtist] = useState('');
-
-  useTrackPlayerEvents(['playback-metadata-received'], async (event) => {
-    if (event) {
-      const {title, artist} = event || {};
-      setTrackTitle(title);
-      setTrackArtist(artist);
-      // setTrackArtwork(artwork);
-    }
-  });
+  const [playing, setPlaying] = useState(playBackState === 3);
 
   const setUp = async () => {
     await TrackPlayer.setupPlayer();
@@ -65,10 +58,31 @@ const MainContextProvider = ({children}) => {
 
     let state = await TrackPlayer.getState();
     setMainState(state);
-    console.log({state});
 
     TrackPlayer.play();
+
+    TrackPlayer.addEventListener('remote-pause', (event) => {
+      TrackPlayer.pause();
+    });
+
+    TrackPlayer.addEventListener('remote-stop', (event) => {
+      TrackPlayer.stop();
+    });
+
+    TrackPlayer.addEventListener('remote-play', (event) => {
+      TrackPlayer.play();
+    });
   };
+
+  useTrackPlayerEvents(['playback-metadata-received'], async (event) => {
+    if (event) {
+      const {title, artist} = event || {};
+      setTrackTitle(title);
+      setTrackArtist(artist);
+      setTrack({...track, artist, title});
+      // setTrackArtwork(artwork);
+    }
+  });
 
   const play = async () => {
     TrackPlayer.play();
@@ -81,9 +95,25 @@ const MainContextProvider = ({children}) => {
   useEffect(() => {
     setUp();
   }, []);
+
+  useEffect(() => {
+    setPlaying(playBackState === 3);
+  }, [playBackState]);
+
+  useEffect(() => {
+    TrackPlayer.add([track]);
+  }, [track]);
   return (
     <MainContext.Provider
-      value={{mainState, setMainState, play, pause, trackTitle, trackArtist}}>
+      value={{
+        mainState,
+        setMainState,
+        play,
+        pause,
+        trackTitle,
+        trackArtist,
+        playing,
+      }}>
       {children}
     </MainContext.Provider>
   );
