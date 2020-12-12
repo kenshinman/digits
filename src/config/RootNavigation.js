@@ -4,6 +4,7 @@ import {createStackNavigator} from '@react-navigation/stack';
 import {createDrawerNavigator} from '@react-navigation/drawer';
 import Home from '../screens/home/Home';
 import {View, Text, Dimensions} from 'react-native';
+import DrawerContent from '../components/DrawerContent';
 
 const Stack = createStackNavigator();
 const Drawer = createDrawerNavigator();
@@ -17,14 +18,6 @@ const RootStack = () => {
         options={{headerShown: false}}
       />
     </Stack.Navigator>
-  );
-};
-
-const DrawerContent = () => {
-  return (
-    <View>
-      <Text>Content here</Text>
-    </View>
   );
 };
 

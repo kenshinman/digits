@@ -9,4 +9,5 @@ export const globalStyle = {
 
 export const colors = {
   primary: '#da2f34',
+  secondary: '#690404',
 };
