@@ -6,10 +6,12 @@ import {colors} from '../constants';
 const DrawerContent = () => {
   return (
     <View style={styles.container}>
-      <View>
+      <View style={styles.top}>
         <Image source={require('../../assets/logo.png')} style={styles.image} />
       </View>
-      <Text>Content here 1</Text>
+      <View>
+        <Text>Content here 1</Text>
+      </View>
     </View>
   );
 };
@@ -17,11 +19,18 @@ const DrawerContent = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: colors.primary,
+    backgroundColor: 'white',
   },
   image: {
     width: 140,
     height: 140,
+  },
+  top: {
+    height: 300,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: 'white',
+    padding: 30,
   },
 });
 
