@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.digits">
+  package="com.digits1024dadio">
 
     <uses-permission android:name="android.permission.INTERNET" />
 

@@ -1,4 +1,4 @@
-package com.digits;
+package com.digits1024dadio;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "Digits1024Radio";
+    return "digits1024dadio";
   }
 }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1230"
+   LastUpgradeVersion = "1130"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "digits-tvOS.app"
-               BlueprintName = "digits-tvOS"
-               ReferencedContainer = "container:digits.xcodeproj">
+               BuildableName = "digits1024dadio-tvOS.app"
+               BlueprintName = "digits1024dadio-tvOS"
+               ReferencedContainer = "container:digits1024dadio.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "digits-tvOSTests.xctest"
-               BlueprintName = "digits-tvOSTests"
-               ReferencedContainer = "container:digits.xcodeproj">
+               BuildableName = "digits1024dadio-tvOSTests.xctest"
+               BlueprintName = "digits1024dadio-tvOSTests"
+               ReferencedContainer = "container:digits1024dadio.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "digits-tvOS.app"
-            BlueprintName = "digits-tvOS"
-            ReferencedContainer = "container:digits.xcodeproj">
+            BuildableName = "digits1024dadio-tvOS.app"
+            BlueprintName = "digits1024dadio-tvOS"
+            ReferencedContainer = "container:digits1024dadio.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "digits-tvOS.app"
-            BlueprintName = "digits-tvOS"
-            ReferencedContainer = "container:digits.xcodeproj">
+            BuildableName = "digits1024dadio-tvOS.app"
+            BlueprintName = "digits1024dadio-tvOS"
+            ReferencedContainer = "container:digits1024dadio.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

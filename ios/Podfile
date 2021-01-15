@@ -3,12 +3,12 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '10.0'
 
-target 'digits' do
+target 'digits1024dadio' do
   config = use_native_modules!
 
   use_react_native!(:path => config["reactNativePath"])
 
-  target 'digitsTests' do
+  target 'digits1024dadioTests' do
     inherit! :complete
     # Pods for testing
   end
@@ -23,10 +23,10 @@ target 'digits' do
   end
 end
 
-target 'digits-tvOS' do
-  # Pods for digits-tvOS
+target 'digits1024dadio-tvOS' do
+  # Pods for digits1024dadio-tvOS
 
-  target 'digits-tvOSTests' do
+  target 'digits1024dadio-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end
