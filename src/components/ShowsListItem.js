@@ -1,19 +1,25 @@
 import React from 'react';
-
-import {View, Text, StyleSheet, Image, Alert} from 'react-native';
-import {TouchableOpacity} from 'react-native-gesture-handler';
-
+import {
+  View,
+  Text,
+  StyleSheet,
+  Image,
+  Alert,
+  TouchableOpacity,
+} from 'react-native';
+import {useNavigation} from '@react-navigation/native';
 const ShowsListItem = ({show}) => {
+  const navigation = useNavigation();
   return (
     <TouchableOpacity
-      onPress={() => Alert.alert(`${show.title}`)}
+      onPress={() => navigation.navigate('ShowsDetail', {show})}
       style={styles.itemWrap}>
       <Image
         style={styles.image}
         source={{
-          uri:
-            `${show?.attachments[0]?.url}` ||
-            `https://loremflickr.com/80/80/dog`,
+          uri: show?.attachments[0]?.url
+            ? `${show?.attachments[0]?.url}`
+            : `https://loremflickr.com/80/80/dog`,
         }}
       />
       <View style={styles.itemTextWrap}>

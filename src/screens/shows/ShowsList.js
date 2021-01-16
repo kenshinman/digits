@@ -8,14 +8,17 @@ import {MainContext} from '../../contexts/MainContext';
 
 const ShowsList = () => {
   const {data, isLoading} = useContext(MainContext);
-  console.log(data);
+  if (isLoading) {
+    <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+      <Text>Loading...</Text>
+    </View>;
+  }
   return (
     <FullScreen>
       <FlatList
         keyExtractor={(item) => item.id.toString()}
         data={data.data.posts}
         renderItem={({item}) => {
-          console.log(item);
           return <ShowsListItem show={item} />;
         }}
       />

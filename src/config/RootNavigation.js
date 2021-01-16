@@ -7,8 +7,8 @@ import {View, Text, Dimensions} from 'react-native';
 import Home from '../screens/home/Home';
 import ShowsList from '../screens/shows/ShowsList';
 import DrawerContent from '../components/DrawerContent';
-import {MainContext} from '../contexts/MainContext';
 import {colors} from '../constants';
+import ShowsDetail from '../screens/shows/ShowsDetail';
 
 const Stack = createStackNavigator();
 const Drawer = createDrawerNavigator();
@@ -29,6 +29,11 @@ const RootStack = () => {
         name="ShowsList"
         component={ShowsList}
         options={{title: 'Radio Shows'}}
+      />
+      <Stack.Screen
+        name="ShowsDetail"
+        component={ShowsDetail}
+        options={{title: 'Show Detail'}}
       />
     </Stack.Navigator>
   );
