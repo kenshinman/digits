@@ -1,9 +1,9 @@
 import React from 'react';
 
-import {View, Text, StyleSheet, Image} from 'react-native';
+import {View, Text, StyleSheet, Image, TouchableOpacity} from 'react-native';
 import {colors} from '../constants';
 
-const DrawerContent = () => {
+const DrawerContent = ({navigation}) => {
   return (
     <View style={styles.container}>
       <View style={styles.top}>
@@ -11,6 +11,9 @@ const DrawerContent = () => {
       </View>
       <View>
         <Text>Content here 1</Text>
+        <TouchableOpacity onPress={() => navigation.navigate('ShowsList')}>
+          <Text>Shows</Text>
+        </TouchableOpacity>
       </View>
     </View>
   );

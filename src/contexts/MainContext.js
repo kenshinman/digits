@@ -5,6 +5,8 @@ import TrackPlayer, {
   useTrackPlayerEvents,
   TrackPlayerEvents,
 } from 'react-native-track-player';
+import axios from 'axios';
+import {useQuery} from 'react-query';
 
 export const MainContext = createContext();
 
@@ -28,10 +30,16 @@ const MainContextProvider = ({children}) => {
   const [trackArtist, setTrackArtist] = useState('');
   const [playing, setPlaying] = useState(playBackState === 3);
 
+  const {isLoading, error, data} = useQuery('shows', async () => {
+    return axios.get(
+      `https://digitsound.com.ng/?json=1&post_type=radio-show&order_by=title&order=ASC&count=-1`,
+    );
+  });
+
   const setUp = async () => {
     await TrackPlayer.setupPlayer();
 
-    await TrackPlayer.updateOptions({
+    TrackPlayer.updateOptions({
       stopWithApp: true,
       dismissable: true,
       capabilities: [
@@ -73,15 +81,15 @@ const MainContextProvider = ({children}) => {
     });
   };
 
-  useTrackPlayerEvents(['playback-metadata-received'], async (event) => {
-    if (event) {
-      const {title, artist} = event || {};
-      setTrackTitle(title);
-      setTrackArtist(artist);
-      setTrack({...track, artist, title});
-      // setTrackArtwork(artwork);
-    }
-  });
+  // useTrackPlayerEvents(['playback-metadata-received'], async (event) => {
+  //   if (event) {
+  //     const {title, artist} = event || {};
+  //     setTrackTitle(title);
+  //     setTrackArtist(artist);
+  //     setTrack({...track, artist, title});
+  //     // setTrackArtwork(artwork);
+  //   }
+  // });
 
   const play = async () => {
     TrackPlayer.play();
@@ -93,10 +101,13 @@ const MainContextProvider = ({children}) => {
 
   useEffect(() => {
     setUp();
+    play();
   }, []);
 
   useEffect(() => {
-    setPlaying(playBackState === 3);
+    console.log({playBackState});
+    const isplaying = playBackState === 3 || playBackState === 'playing';
+    setPlaying(isplaying);
   }, [playBackState]);
 
   useEffect(() => {
@@ -114,6 +125,9 @@ const MainContextProvider = ({children}) => {
         trackTitle,
         trackArtist,
         playing,
+        data,
+        isLoading,
+        error,
       }}>
       {children}
     </MainContext.Provider>

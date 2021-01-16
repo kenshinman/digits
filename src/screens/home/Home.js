@@ -8,6 +8,7 @@ import {
   View,
   TouchableOpacity,
   Linking,
+  Alert,
 } from 'react-native';
 import FacebookIcon from '../../components/Facebook';
 
@@ -37,7 +38,9 @@ const Home = ({navigation}) => {
       source={require('../../../assets/bg-min.jpg')}>
       <FullScreen style={styles.container}>
         <View style={styles.header}>
-          <TouchableNativeFeedback onPress={() => navigation.openDrawer()}>
+          <TouchableNativeFeedback
+            style={{width: 40, height: 40}}
+            onPress={() => navigation.openDrawer()}>
             <MenuIcon color={colors.primary} size={28} />
           </TouchableNativeFeedback>
         </View>
@@ -77,6 +80,9 @@ const Home = ({navigation}) => {
               </TouchableNativeFeedback>
             )}
           </View>
+          {/* <Text style={{color: 'white'}}>
+            {JSON.stringify({trackArtist, trackTitle, playing})}
+          </Text> */}
           <View style={styles.iconsWrap}>
             <TouchableNativeFeedback
               onPress={() => doOpenUrl('https://facebook.com')}>

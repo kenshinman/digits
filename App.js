@@ -1,10 +1,11 @@
 import 'react-native-gesture-handler';
 import React, {useEffect, useState} from 'react';
-import {StyleSheet, StatusBar} from 'react-native';
+import {StyleSheet, StatusBar, SafeAreaView} from 'react-native';
+import {QueryClient, QueryClientProvider} from 'react-query';
 
-import TrackPlayer from 'react-native-track-player';
 import RootNavigation from './src/config/RootNavigation';
 import MainContextProvider from './src/contexts/MainContext';
+import {colors} from './src/constants';
 var track = {
   id: 'unique track id', // Must be a string, required
 
@@ -20,12 +21,18 @@ var track = {
     'https://digitsound.com.ng/wp-content/uploads/2015/05/Great-Examples-of-Great-Sound-Design2.jpg', // Load artwork from the network
 };
 
+const queryClient = new QueryClient();
+
 const App = () => {
   return (
-    <MainContextProvider>
-      <StatusBar barStyle="light-content" backgroundColor="#da2f34" />
-      <RootNavigation />
-    </MainContextProvider>
+    <QueryClientProvider client={queryClient}>
+      <MainContextProvider>
+        <SafeAreaView style={styles.container}>
+          <StatusBar barStyle="light-content" backgroundColor="#da2f34" />
+          <RootNavigation />
+        </SafeAreaView>
+      </MainContextProvider>
+    </QueryClientProvider>
   );
 };
 
@@ -35,6 +42,10 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: 'red',
+  },
+  container: {
+    flex: 1,
+    backgroundColor: colors.primary,
   },
 });
 
