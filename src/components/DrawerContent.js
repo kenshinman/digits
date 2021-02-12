@@ -1,19 +1,48 @@
 import React from 'react';
 
 import {View, Text, StyleSheet, Image, TouchableOpacity} from 'react-native';
+import {FlatList} from 'react-native-gesture-handler';
 import {colors} from '../constants';
+import HomeIcon from './HomeIcon';
+import ListIcon from './ListIcon';
+import MenuItem from './MenuItem';
+
+const routes = [
+  {name: 'Home', icon: <HomeIcon size={24} color={colors.primary} />},
+  {name: 'ShowsList', icon: <ListIcon size={24} color={colors.primary} />},
+];
 
 const DrawerContent = ({navigation}) => {
+  console.log({navigation});
   return (
     <View style={styles.container}>
       <View style={styles.top}>
         <Image source={require('../../assets/logo.png')} style={styles.image} />
       </View>
-      <View>
-        <Text>Content here 1</Text>
-        <TouchableOpacity onPress={() => navigation.navigate('ShowsList')}>
-          <Text>Shows</Text>
-        </TouchableOpacity>
+      <View style={styles.bottom}>
+        <FlatList
+          data={routes}
+          keyExtractor={(item) => item.label}
+          ItemSeparatorComponent={() => (
+            <View
+              style={{
+                height: 1,
+                backgroundColor: colors.primary,
+                width: '90%',
+                marginHorizontal: 10,
+                opacity: 0.5,
+              }}
+            />
+          )}
+          renderItem={({item}) => (
+            <MenuItem
+              label={item.name}
+              path={item.label}
+              icon={item.icon}
+              navigation={navigation}
+            />
+          )}
+        />
       </View>
     </View>
   );
@@ -34,6 +63,10 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: 'white',
     padding: 30,
+    flex: 1,
+  },
+  bottom: {
+    flex: 3,
   },
 });
 
