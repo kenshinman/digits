@@ -1,17 +1,14 @@
-import React, {useContext, useEffect} from 'react';
+import React, {useContext} from 'react';
 import {
-  TouchableNativeFeedback,
-  Text,
-  StyleSheet,
   Image,
   ImageBackground,
-  View,
-  TouchableOpacity,
   Linking,
-  Alert,
+  StyleSheet,
+  Text,
+  TouchableNativeFeedback,
+  View,
 } from 'react-native';
 import FacebookIcon from '../../components/Facebook';
-
 import FullScreen from '../../components/FullScreen';
 import InstagramIcon from '../../components/InstagramIcon';
 import MenuIcon from '../../components/MenuIcon';
@@ -85,19 +82,25 @@ const Home = ({navigation}) => {
           </Text> */}
           <View style={styles.iconsWrap}>
             <TouchableNativeFeedback
-              onPress={() => doOpenUrl('https://facebook.com')}>
+              onPress={() => doOpenUrl('https://web.facebook.com/digits1024')}>
               <FacebookIcon size={38} />
             </TouchableNativeFeedback>
             <TouchableNativeFeedback
-              onPress={() => doOpenUrl('https://twitter.com')}>
+              onPress={() => doOpenUrl('https://twitter.com/digits1024')}>
               <TwitterIcon size={38} />
             </TouchableNativeFeedback>
             <TouchableNativeFeedback
-              onPress={() => doOpenUrl('https://youtube.com')}>
+              onPress={() =>
+                doOpenUrl(
+                  'https://www.youtube.com/channel/UCrV95Mq_yazbJYhTbL6RMJA',
+                )
+              }>
               <YoutubeIcon size={38} />
             </TouchableNativeFeedback>
             <TouchableNativeFeedback
-              onPress={() => doOpenUrl('https://instagram.com')}>
+              onPress={() =>
+                doOpenUrl('https://www.instagram.com/digits1024/')
+              }>
               <InstagramIcon size={38} />
             </TouchableNativeFeedback>
           </View>
