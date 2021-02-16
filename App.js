@@ -1,11 +1,12 @@
+import React, {useEffect} from 'react';
+import {SafeAreaView, StatusBar, StyleSheet} from 'react-native';
+import RNBootSplash from 'react-native-bootsplash';
 import 'react-native-gesture-handler';
-import React, {useEffect, useState} from 'react';
-import {StyleSheet, StatusBar, SafeAreaView} from 'react-native';
 import {QueryClient, QueryClientProvider} from 'react-query';
-
 import RootNavigation from './src/config/RootNavigation';
-import MainContextProvider from './src/contexts/MainContext';
 import {colors} from './src/constants';
+import MainContextProvider from './src/contexts/MainContext';
+
 var track = {
   id: 'unique track id', // Must be a string, required
 
@@ -24,6 +25,17 @@ var track = {
 const queryClient = new QueryClient();
 
 const App = () => {
+  useEffect(() => {
+    const init = async () => {
+      // …do multiple sync or async tasks
+    };
+
+    init().finally(async () => {
+      await RNBootSplash.hide({fade: true});
+      console.log('Bootsplash has been hidden successfully');
+    });
+  }, []);
+
   return (
     <QueryClientProvider client={queryClient}>
       <MainContextProvider>
