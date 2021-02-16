@@ -1,7 +1,6 @@
 import React from 'react';
-import {View, Text, FlatList} from 'react-native';
+import {FlatList, Text, View} from 'react-native';
 import {useContext} from 'react/cjs/react.development';
-
 import FullScreen from '../../components/FullScreen';
 import ShowsListItem from '../../components/ShowsListItem';
 import {MainContext} from '../../contexts/MainContext';
@@ -18,6 +17,9 @@ const ShowsList = () => {
       <FlatList
         keyExtractor={(item) => item.id.toString()}
         data={data.data.posts}
+        ItemSeparatorComponent={() => (
+          <View style={{height: 1, backgroundColor: 'lightgrey'}} />
+        )}
         renderItem={({item}) => {
           return <ShowsListItem show={item} />;
         }}

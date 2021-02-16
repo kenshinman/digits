@@ -1,0 +1,4 @@
+yarn react-native generate-bootsplash assets/digits-logo.png \
+  --background-color=760606 \
+  --logo-width=150 \
+  --assets-path=assets
