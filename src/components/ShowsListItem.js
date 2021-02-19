@@ -1,13 +1,6 @@
-import React from 'react';
-import {
-  View,
-  Text,
-  StyleSheet,
-  Image,
-  Alert,
-  TouchableOpacity,
-} from 'react-native';
 import {useNavigation} from '@react-navigation/native';
+import React from 'react';
+import {Image, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 const ShowsListItem = ({show}) => {
   const navigation = useNavigation();
   return (
@@ -19,7 +12,7 @@ const ShowsListItem = ({show}) => {
         source={{
           uri: show?.attachments[0]?.url
             ? `${show?.attachments[0]?.url}`
-            : `https://loremflickr.com/80/80/dog`,
+            : `https://digitsound.com.ng/wp-content/uploads/2017/09/digits-logo.jpg`,
         }}
       />
       <View style={styles.itemTextWrap}>

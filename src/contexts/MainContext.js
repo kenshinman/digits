@@ -1,6 +1,10 @@
 import axios from 'axios';
 import React, {createContext, useEffect, useState} from 'react';
-import TrackPlayer, {usePlaybackState} from 'react-native-track-player';
+import {Platform} from 'react-native';
+import TrackPlayer, {
+  usePlaybackState,
+  useTrackPlayerEvents,
+} from 'react-native-track-player';
 import {useQuery} from 'react-query';
 
 export const MainContext = createContext();
@@ -11,7 +15,7 @@ const MainContextProvider = ({children}) => {
   const [track, setTrack] = useState({
     id: 'unique track id',
 
-    url: 'http://epsilon.shoutca.st:9139/',
+    url: 'https://digits1024radio1.radioca.st/stream',
 
     title: 'Digits 1024 Radio',
     artist: 'Digits Radio',
@@ -74,15 +78,17 @@ const MainContextProvider = ({children}) => {
     });
   };
 
-  // useTrackPlayerEvents(['playback-metadata-received'], async (event) => {
-  //   if (event) {
-  //     const {title, artist} = event || {};
-  //     setTrackTitle(title);
-  //     setTrackArtist(artist);
-  //     setTrack({...track, artist, title});
-  //     // setTrackArtwork(artwork);
-  //   }
-  // });
+  if (Platform.OS === 'android') {
+    useTrackPlayerEvents(['playback-metadata-received'], async (event) => {
+      if (event) {
+        const {title, artist} = event || {};
+        setTrackTitle(title);
+        setTrackArtist(artist);
+        setTrack({...track, artist, title});
+        // setTrackArtwork(artwork);
+      }
+    });
+  }
 
   const play = async () => {
     await TrackPlayer.play();

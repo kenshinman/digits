@@ -69,7 +69,7 @@ const Home = ({navigation}) => {
                 globalStyle.boldText,
                 styles.nowPlaying,
               ]}>
-              Artist {JSON.stringify({playBackState})}
+              Artist
             </Text>
             <Text style={[styles.artist]}>{trackArtist}</Text>
 
@@ -83,9 +83,7 @@ const Home = ({navigation}) => {
               </TouchableNativeFeedback>
             )}
           </View>
-          {/* <Text style={{color: 'white'}}>
-            {JSON.stringify({trackArtist, trackTitle, playing})}
-          </Text> */}
+
           <View style={styles.iconsWrap}>
             <TouchableNativeFeedback
               onPress={() => doOpenUrl('https://web.facebook.com/digits1024')}>
