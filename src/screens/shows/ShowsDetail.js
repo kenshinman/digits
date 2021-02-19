@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, Text, Image, StyleSheet, ScrollView} from 'react-native';
+import {Image, ScrollView, StyleSheet, Text, View} from 'react-native';
 import HTML from 'react-native-render-html';
 import {colors} from '../../constants';
 
@@ -32,7 +32,7 @@ const ShowsDetail = ({route}) => {
         source={{
           uri: show?.attachments[0]?.url
             ? `${show?.attachments[0]?.url}`
-            : `https://loremflickr.com/80/80/dog`,
+            : `https://digitsound.com.ng/wp-content/uploads/2017/09/digits-logo.jpg`,
         }}
       />
       <View style={styles.content}>

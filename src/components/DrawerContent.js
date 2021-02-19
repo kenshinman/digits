@@ -1,6 +1,5 @@
 import React from 'react';
-
-import {View, Text, StyleSheet, Image, TouchableOpacity} from 'react-native';
+import {Image, StyleSheet, View} from 'react-native';
 import {FlatList} from 'react-native-gesture-handler';
 import {colors} from '../constants';
 import HomeIcon from './HomeIcon';
@@ -22,7 +21,7 @@ const DrawerContent = ({navigation}) => {
       <View style={styles.bottom}>
         <FlatList
           data={routes}
-          keyExtractor={(item) => item.label}
+          keyExtractor={(item, index) => `${item.label}_${index}`}
           ItemSeparatorComponent={() => (
             <View
               style={{

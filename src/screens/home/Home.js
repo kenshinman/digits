@@ -3,6 +3,7 @@ import {
   Image,
   ImageBackground,
   Linking,
+  Pressable,
   StyleSheet,
   Text,
   TouchableNativeFeedback,
@@ -21,9 +22,14 @@ import {colors, globalStyle} from '../../constants';
 import {MainContext} from '../../contexts/MainContext';
 
 const Home = ({navigation}) => {
-  const {play, pause, trackArtist, trackTitle, playing} = useContext(
-    MainContext,
-  );
+  const {
+    play,
+    pause,
+    trackArtist,
+    trackTitle,
+    playing,
+    playBackState,
+  } = useContext(MainContext);
 
   const doOpenUrl = (url) => {
     Linking.openURL(url);
@@ -35,11 +41,11 @@ const Home = ({navigation}) => {
       source={require('../../../assets/bg-min.jpg')}>
       <FullScreen style={styles.container}>
         <View style={styles.header}>
-          <TouchableNativeFeedback
+          <Pressable
             style={{width: 40, height: 40}}
             onPress={() => navigation.openDrawer()}>
             <MenuIcon color={colors.primary} size={28} />
-          </TouchableNativeFeedback>
+          </Pressable>
         </View>
         <View style={{flex: 1}}>
           <View style={styles.content}>
@@ -63,7 +69,7 @@ const Home = ({navigation}) => {
                 globalStyle.boldText,
                 styles.nowPlaying,
               ]}>
-              Artist
+              Artist {JSON.stringify({playBackState})}
             </Text>
             <Text style={[styles.artist]}>{trackArtist}</Text>
 

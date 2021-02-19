@@ -1,14 +1,13 @@
-import React from 'react';
+import {createDrawerNavigator} from '@react-navigation/drawer';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
-import {createDrawerNavigator} from '@react-navigation/drawer';
-import {View, Text, Dimensions} from 'react-native';
-
-import Home from '../screens/home/Home';
-import ShowsList from '../screens/shows/ShowsList';
+import React from 'react';
+import {Dimensions} from 'react-native';
 import DrawerContent from '../components/DrawerContent';
 import {colors} from '../constants';
+import Home from '../screens/home/Home';
 import ShowsDetail from '../screens/shows/ShowsDetail';
+import ShowsList from '../screens/shows/ShowsList';
 
 const Stack = createStackNavigator();
 const Drawer = createDrawerNavigator();

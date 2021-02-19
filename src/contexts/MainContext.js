@@ -1,11 +1,6 @@
-import React, {createContext, useState, useEffect} from 'react';
-import TrackPlayer, {
-  useTrackPlayerProgress,
-  usePlaybackState,
-  useTrackPlayerEvents,
-  TrackPlayerEvents,
-} from 'react-native-track-player';
 import axios from 'axios';
+import React, {createContext, useEffect, useState} from 'react';
+import TrackPlayer, {usePlaybackState} from 'react-native-track-player';
 import {useQuery} from 'react-query';
 
 export const MainContext = createContext();
@@ -21,14 +16,14 @@ const MainContextProvider = ({children}) => {
     title: 'Digits 1024 Radio',
     artist: 'Digits Radio',
     album: 'Digits 1024 Radio',
-    genre: 'New Data',
+    genre: 'Radio station',
 
     artwork: require('../../assets/artwork.jpg'),
   });
   const [mainState, setMainState] = useState({});
   const [trackTitle, setTrackTitle] = useState('');
   const [trackArtist, setTrackArtist] = useState('');
-  const [playing, setPlaying] = useState(playBackState === 3);
+  const [playing, setPlaying] = useState(false);
 
   const {isLoading, error, data} = useQuery('shows', async () => {
     return axios.get(
@@ -39,7 +34,7 @@ const MainContextProvider = ({children}) => {
   const setUp = async () => {
     await TrackPlayer.setupPlayer();
 
-    TrackPlayer.updateOptions({
+    await TrackPlayer.updateOptions({
       stopWithApp: true,
       dismissable: true,
       capabilities: [
@@ -59,24 +54,22 @@ const MainContextProvider = ({children}) => {
       ],
     });
 
-    TrackPlayer.add([track]).then(function () {
-      // The tracks were added
-    });
+    await TrackPlayer.add([track]);
 
     let state = await TrackPlayer.getState();
     setMainState(state);
 
-    TrackPlayer.play();
+    await TrackPlayer.play();
 
-    TrackPlayer.addEventListener('remote-pause', (event) => {
+    await TrackPlayer.addEventListener('remote-pause', (event) => {
       TrackPlayer.pause();
     });
 
-    TrackPlayer.addEventListener('remote-stop', (event) => {
+    await TrackPlayer.addEventListener('remote-stop', (event) => {
       TrackPlayer.stop();
     });
 
-    TrackPlayer.addEventListener('remote-play', (event) => {
+    await TrackPlayer.addEventListener('remote-play', (event) => {
       TrackPlayer.play();
     });
   };
@@ -92,27 +85,32 @@ const MainContextProvider = ({children}) => {
   // });
 
   const play = async () => {
-    TrackPlayer.play();
+    await TrackPlayer.play();
   };
 
   const pause = async () => {
-    TrackPlayer.pause();
+    await TrackPlayer.pause();
+  };
+
+  const init = async () => {
+    await setUp();
+    await play();
+    console.log('hey playing...');
   };
 
   useEffect(() => {
-    setUp();
-    play();
+    init();
   }, []);
 
   useEffect(() => {
     console.log({playBackState});
-    const isplaying = playBackState === 3 || playBackState === 'playing';
+    const isplaying = playBackState > 2 || playBackState === 'playing';
     setPlaying(isplaying);
   }, [playBackState]);
 
   useEffect(() => {
-    // TrackPlayer.destroy();
-    TrackPlayer.add([track]);
+    const restart = async () => await TrackPlayer.add([track]);
+    restart();
   }, [track]);
 
   return (
@@ -128,6 +126,7 @@ const MainContextProvider = ({children}) => {
         data,
         isLoading,
         error,
+        playBackState,
       }}>
       {children}
     </MainContext.Provider>

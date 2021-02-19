@@ -8,7 +8,8 @@
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint .",
-    "clean": "cd android && ./gradlew clean && cd ../"
+    "clean": "cd android && ./gradlew clean && cd ../",
+    "release": "cd android && ./gradlew bundleRelease && cd ../"
   },
   "dependencies": {
     "@bam.tech/react-native-make": "^3.0.0",
