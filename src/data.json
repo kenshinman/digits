@@ -1,0 +1,1527 @@
+[{
+	"id": 1035,
+	"type": "radio-show",
+	"slug": "venus-mars",
+	"url": "https:\/\/digitsound.com.ng\/radio-show\/venus-mars\/",
+	"status": "publish",
+	"title": "Venus and Mars",
+	"title_plain": "Venus and Mars",
+	"content": "<p>Venus n Mars is a show which approaches relational topics from gender views. It is hosted by Bukky and Boma every Friday from 4pm to 5pm<\/p>\n",
+	"excerpt": "<p>Venus n Mars is a show which approaches relational topics from gender views. It is hosted by Bukky and Boma every Friday from 4pm to 5pm<\/p>\n",
+	"date": "2017-06-07 12:16:58",
+	"modified": "2021-03-25 09:56:56",
+	"categories": [],
+	"tags": [],
+	"author": {
+		"id": 1,
+		"slug": "digits",
+		"name": "Digits",
+		"first_name": "",
+		"last_name": "",
+		"nickname": "Digits",
+		"url": "https:\/\/www.digitsound.com.ng",
+		"description": ""
+	},
+	"comments": [],
+	"attachments": [{
+		"id": 1118,
+		"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/06\/ivy-n-victor.jpg",
+		"slug": "ivy-n-victor",
+		"title": "ivy n victor",
+		"description": "",
+		"caption": "",
+		"parent": 1035,
+		"mime_type": "image\/jpeg",
+		"images": {
+			"full": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/06\/ivy-n-victor.jpg",
+				"width": 960,
+				"height": 716
+			},
+			"thumbnail": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/06\/ivy-n-victor-150x150.jpg",
+				"width": 150,
+				"height": 150
+			},
+			"medium": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/06\/ivy-n-victor-300x224.jpg",
+				"width": 300,
+				"height": 224
+			},
+			"medium_large": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/06\/ivy-n-victor-768x573.jpg",
+				"width": 768,
+				"height": 573
+			},
+			"large": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/06\/ivy-n-victor.jpg",
+				"width": 960,
+				"height": 716
+			},
+			"1536x1536": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/06\/ivy-n-victor.jpg",
+				"width": 960,
+				"height": 716
+			},
+			"2048x2048": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/06\/ivy-n-victor.jpg",
+				"width": 960,
+				"height": 716
+			},
+			"post-thumbnail": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/06\/ivy-n-victor-500x373.jpg",
+				"width": 500,
+				"height": 373
+			},
+			"mesh_blog": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/06\/ivy-n-victor-350x350.jpg",
+				"width": 350,
+				"height": 350
+			},
+			"mesh_photo_album_cover": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/06\/ivy-n-victor-600x600.jpg",
+				"width": 600,
+				"height": 600
+			},
+			"mesh_photo_album_single": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/06\/ivy-n-victor-745x351.jpg",
+				"width": 745,
+				"height": 351
+			},
+			"mesh_event": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/06\/ivy-n-victor-500x373.jpg",
+				"width": 500,
+				"height": 373
+			}
+		}
+	}, {
+		"id": 1652,
+		"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/06\/Venus-n-Mars.jpg",
+		"slug": "venus-n-mars",
+		"title": "Venus n Mars",
+		"description": "",
+		"caption": "",
+		"parent": 1035,
+		"mime_type": "image\/jpeg",
+		"images": {
+			"full": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/06\/Venus-n-Mars.jpg",
+				"width": 1080,
+				"height": 1080
+			},
+			"thumbnail": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/06\/Venus-n-Mars-150x150.jpg",
+				"width": 150,
+				"height": 150
+			},
+			"medium": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/06\/Venus-n-Mars-300x300.jpg",
+				"width": 300,
+				"height": 300
+			},
+			"medium_large": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/06\/Venus-n-Mars-768x768.jpg",
+				"width": 768,
+				"height": 768
+			},
+			"large": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/06\/Venus-n-Mars-1024x1024.jpg",
+				"width": 1024,
+				"height": 1024
+			},
+			"1536x1536": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/06\/Venus-n-Mars.jpg",
+				"width": 1080,
+				"height": 1080
+			},
+			"2048x2048": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/06\/Venus-n-Mars.jpg",
+				"width": 1080,
+				"height": 1080
+			},
+			"post-thumbnail": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/06\/Venus-n-Mars-500x500.jpg",
+				"width": 500,
+				"height": 500
+			},
+			"mesh_blog": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/06\/Venus-n-Mars-350x350.jpg",
+				"width": 350,
+				"height": 350
+			},
+			"mesh_photo_album_cover": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/06\/Venus-n-Mars-600x600.jpg",
+				"width": 600,
+				"height": 600
+			},
+			"mesh_photo_album_single": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/06\/Venus-n-Mars-745x351.jpg",
+				"width": 745,
+				"height": 351
+			},
+			"mesh_event": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/06\/Venus-n-Mars-500x500.jpg",
+				"width": 500,
+				"height": 500
+			}
+		}
+	}, {
+		"id": 1655,
+		"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/06\/venus-n-mars-dp.jpg",
+		"slug": "venus-n-mars-dp",
+		"title": "venus n mars dp",
+		"description": "",
+		"caption": "",
+		"parent": 1035,
+		"mime_type": "image\/jpeg",
+		"images": {
+			"full": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/06\/venus-n-mars-dp.jpg",
+				"width": 1080,
+				"height": 1080
+			},
+			"thumbnail": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/06\/venus-n-mars-dp-150x150.jpg",
+				"width": 150,
+				"height": 150
+			},
+			"medium": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/06\/venus-n-mars-dp-300x300.jpg",
+				"width": 300,
+				"height": 300
+			},
+			"medium_large": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/06\/venus-n-mars-dp-768x768.jpg",
+				"width": 768,
+				"height": 768
+			},
+			"large": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/06\/venus-n-mars-dp-1024x1024.jpg",
+				"width": 1024,
+				"height": 1024
+			},
+			"1536x1536": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/06\/venus-n-mars-dp.jpg",
+				"width": 1080,
+				"height": 1080
+			},
+			"2048x2048": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/06\/venus-n-mars-dp.jpg",
+				"width": 1080,
+				"height": 1080
+			},
+			"post-thumbnail": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/06\/venus-n-mars-dp-500x500.jpg",
+				"width": 500,
+				"height": 500
+			},
+			"mesh_blog": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/06\/venus-n-mars-dp-350x350.jpg",
+				"width": 350,
+				"height": 350
+			},
+			"mesh_photo_album_cover": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/06\/venus-n-mars-dp-600x600.jpg",
+				"width": 600,
+				"height": 600
+			},
+			"mesh_photo_album_single": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/06\/venus-n-mars-dp-745x351.jpg",
+				"width": 745,
+				"height": 351
+			},
+			"mesh_event": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/06\/venus-n-mars-dp-500x500.jpg",
+				"width": 500,
+				"height": 500
+			}
+		}
+	}],
+	"comment_count": 0,
+	"comment_status": "closed",
+	"thumbnail": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/06\/venus-n-mars-dp-500x500.jpg",
+	"custom_fields": {
+		"radio_show_host": ["Victor & Ivy"],
+		"radio_show_recurring_days": ["fri"],
+		"radio_show_recurring_from": ["16:00"],
+		"radio_show_recurring_to": ["17:00"],
+		"is-cover-image-fixed": ["0"],
+		"cover-size": ["lg"],
+		"hide-footer": ["0"],
+		"sidebar": ["on"],
+		"slide_template": ["default"]
+	},
+	"thumbnail_size": "post-thumbnail",
+	"thumbnail_images": {
+		"full": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/06\/venus-n-mars-dp.jpg",
+			"width": 1080,
+			"height": 1080
+		},
+		"thumbnail": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/06\/venus-n-mars-dp-150x150.jpg",
+			"width": 150,
+			"height": 150
+		},
+		"medium": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/06\/venus-n-mars-dp-300x300.jpg",
+			"width": 300,
+			"height": 300
+		},
+		"medium_large": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/06\/venus-n-mars-dp-768x768.jpg",
+			"width": 768,
+			"height": 768
+		},
+		"large": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/06\/venus-n-mars-dp-1024x1024.jpg",
+			"width": 1024,
+			"height": 1024
+		},
+		"1536x1536": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/06\/venus-n-mars-dp.jpg",
+			"width": 1080,
+			"height": 1080
+		},
+		"2048x2048": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/06\/venus-n-mars-dp.jpg",
+			"width": 1080,
+			"height": 1080
+		},
+		"post-thumbnail": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/06\/venus-n-mars-dp-500x500.jpg",
+			"width": 500,
+			"height": 500
+		},
+		"mesh_blog": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/06\/venus-n-mars-dp-350x350.jpg",
+			"width": 350,
+			"height": 350
+		},
+		"mesh_photo_album_cover": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/06\/venus-n-mars-dp-600x600.jpg",
+			"width": 600,
+			"height": 600
+		},
+		"mesh_photo_album_single": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/06\/venus-n-mars-dp-745x351.jpg",
+			"width": 745,
+			"height": 351
+		},
+		"mesh_event": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/06\/venus-n-mars-dp-500x500.jpg",
+			"width": 500,
+			"height": 500
+		}
+	},
+	"taxonomy_show-category": [{
+		"id": 11,
+		"slug": "live-shows",
+		"title": "Live Shows",
+		"description": "",
+		"parent": 0,
+		"post_count": 5
+	}, {
+		"id": 5,
+		"slug": "relationship",
+		"title": "Relationship",
+		"description": "",
+		"parent": 0,
+		"post_count": 3
+	}]
+}, {
+	"id": 1111,
+	"type": "radio-show",
+	"slug": "round-of-applause",
+	"url": "https:\/\/digitsound.com.ng\/radio-show\/round-of-applause\/",
+	"status": "publish",
+	"title": "Round of Applause",
+	"title_plain": "Round of Applause",
+	"content": "<p>Rounds of Applause is a program that puts the spotlight on individuals whose life and work inspires others in the community to be better. Airing every Friday, 12 noon hosted by M.O Oladapo<\/p>\n",
+	"excerpt": "<p>Rounds of Applause is a program that puts the spotlight on individuals whose life and work inspires others in the community to be better. Airing every Friday, 12 noon hosted by M.O Oladapo<\/p>\n",
+	"date": "2017-07-04 13:03:04",
+	"modified": "2021-02-18 14:08:12",
+	"categories": [],
+	"tags": [],
+	"author": {
+		"id": 3,
+		"slug": "ahanonuchimdinma",
+		"name": "chimdinma ahanonu",
+		"first_name": "chimdinma",
+		"last_name": "ahanonu",
+		"nickname": "ahanonuchimdinma",
+		"url": "",
+		"description": ""
+	},
+	"comments": [{
+		"id": 17,
+		"name": "Nnamdi",
+		"url": "",
+		"date": "2017-08-04 10:17:07",
+		"content": "<p>I&#8217;m finding it hard listening in on the radio talk shows, all i hear  is music, most times nothing at all.<\/p>\n",
+		"parent": 0
+	}, {
+		"id": 18,
+		"name": "chimdinma ahanonu",
+		"url": "",
+		"date": "2017-08-07 16:38:40",
+		"content": "<p>We sincerely apologise for an inconvenience. For better user experience please download our app on Google Play Store. On the app you would get to see various programs and their schedule. Thank you for tuning in.<\/p>\n",
+		"parent": 17,
+		"author": {
+			"id": 3,
+			"slug": "ahanonuchimdinma",
+			"name": "chimdinma ahanonu",
+			"first_name": "chimdinma",
+			"last_name": "ahanonu",
+			"nickname": "ahanonuchimdinma",
+			"url": "",
+			"description": ""
+		}
+	}],
+	"attachments": [{
+		"id": 1651,
+		"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/rOA-new-dp.jpg",
+		"slug": "roa-new-dp",
+		"title": "rOA new dp",
+		"description": "",
+		"caption": "",
+		"parent": 1111,
+		"mime_type": "image\/jpeg",
+		"images": {
+			"full": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/rOA-new-dp.jpg",
+				"width": 1080,
+				"height": 1080
+			},
+			"thumbnail": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/rOA-new-dp-150x150.jpg",
+				"width": 150,
+				"height": 150
+			},
+			"medium": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/rOA-new-dp-300x300.jpg",
+				"width": 300,
+				"height": 300
+			},
+			"medium_large": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/rOA-new-dp-768x768.jpg",
+				"width": 768,
+				"height": 768
+			},
+			"large": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/rOA-new-dp-1024x1024.jpg",
+				"width": 1024,
+				"height": 1024
+			},
+			"1536x1536": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/rOA-new-dp.jpg",
+				"width": 1080,
+				"height": 1080
+			},
+			"2048x2048": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/rOA-new-dp.jpg",
+				"width": 1080,
+				"height": 1080
+			},
+			"post-thumbnail": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/rOA-new-dp-500x500.jpg",
+				"width": 500,
+				"height": 500
+			},
+			"mesh_blog": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/rOA-new-dp-350x350.jpg",
+				"width": 350,
+				"height": 350
+			},
+			"mesh_photo_album_cover": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/rOA-new-dp-600x600.jpg",
+				"width": 600,
+				"height": 600
+			},
+			"mesh_photo_album_single": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/rOA-new-dp-745x351.jpg",
+				"width": 745,
+				"height": 351
+			},
+			"mesh_event": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/rOA-new-dp-500x500.jpg",
+				"width": 500,
+				"height": 500
+			}
+		}
+	}, {
+		"id": 1254,
+		"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/Mo-and-Zany.jpg",
+		"slug": "mo-and-zany",
+		"title": "Mo and Zany",
+		"description": "",
+		"caption": "",
+		"parent": 1111,
+		"mime_type": "image\/jpeg",
+		"images": {
+			"full": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/Mo-and-Zany.jpg",
+				"width": 567,
+				"height": 663
+			},
+			"thumbnail": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/Mo-and-Zany-150x150.jpg",
+				"width": 150,
+				"height": 150
+			},
+			"medium": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/Mo-and-Zany-257x300.jpg",
+				"width": 257,
+				"height": 300
+			},
+			"medium_large": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/Mo-and-Zany.jpg",
+				"width": 567,
+				"height": 663
+			},
+			"large": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/Mo-and-Zany.jpg",
+				"width": 567,
+				"height": 663
+			},
+			"1536x1536": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/Mo-and-Zany.jpg",
+				"width": 567,
+				"height": 663
+			},
+			"2048x2048": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/Mo-and-Zany.jpg",
+				"width": 567,
+				"height": 663
+			},
+			"post-thumbnail": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/Mo-and-Zany-500x585.jpg",
+				"width": 500,
+				"height": 585
+			},
+			"mesh_blog": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/Mo-and-Zany-350x350.jpg",
+				"width": 350,
+				"height": 350
+			},
+			"mesh_photo_album_cover": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/Mo-and-Zany-567x600.jpg",
+				"width": 567,
+				"height": 600
+			},
+			"mesh_photo_album_single": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/Mo-and-Zany-567x351.jpg",
+				"width": 567,
+				"height": 351
+			},
+			"mesh_event": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/Mo-and-Zany-500x585.jpg",
+				"width": 500,
+				"height": 585
+			}
+		}
+	}],
+	"comment_count": 2,
+	"comment_status": "closed",
+	"thumbnail": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/rOA-new-dp-500x500.jpg",
+	"custom_fields": {
+		"radio_show_host": ["MO & Zanny"],
+		"radio_show_recurring_days": ["fri"],
+		"radio_show_recurring_from": ["11:00"],
+		"radio_show_recurring_to": ["11:45"],
+		"is-cover-image-fixed": ["0"],
+		"cover-size": ["lg"],
+		"hide-footer": ["0"],
+		"sidebar": ["on"],
+		"slide_template": ["default"]
+	},
+	"thumbnail_size": "post-thumbnail",
+	"thumbnail_images": {
+		"full": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/rOA-new-dp.jpg",
+			"width": 1080,
+			"height": 1080
+		},
+		"thumbnail": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/rOA-new-dp-150x150.jpg",
+			"width": 150,
+			"height": 150
+		},
+		"medium": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/rOA-new-dp-300x300.jpg",
+			"width": 300,
+			"height": 300
+		},
+		"medium_large": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/rOA-new-dp-768x768.jpg",
+			"width": 768,
+			"height": 768
+		},
+		"large": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/rOA-new-dp-1024x1024.jpg",
+			"width": 1024,
+			"height": 1024
+		},
+		"1536x1536": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/rOA-new-dp.jpg",
+			"width": 1080,
+			"height": 1080
+		},
+		"2048x2048": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/rOA-new-dp.jpg",
+			"width": 1080,
+			"height": 1080
+		},
+		"post-thumbnail": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/rOA-new-dp-500x500.jpg",
+			"width": 500,
+			"height": 500
+		},
+		"mesh_blog": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/rOA-new-dp-350x350.jpg",
+			"width": 350,
+			"height": 350
+		},
+		"mesh_photo_album_cover": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/rOA-new-dp-600x600.jpg",
+			"width": 600,
+			"height": 600
+		},
+		"mesh_photo_album_single": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/rOA-new-dp-745x351.jpg",
+			"width": 745,
+			"height": 351
+		},
+		"mesh_event": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/rOA-new-dp-500x500.jpg",
+			"width": 500,
+			"height": 500
+		}
+	},
+	"taxonomy_show-category": [{
+		"id": 11,
+		"slug": "live-shows",
+		"title": "Live Shows",
+		"description": "",
+		"parent": 0,
+		"post_count": 5
+	}, {
+		"id": 6,
+		"slug": "motivational",
+		"title": "Motivational",
+		"description": "",
+		"parent": 0,
+		"post_count": 2
+	}]
+}, {
+	"id": 1112,
+	"type": "radio-show",
+	"slug": "talk-ya-mind",
+	"url": "https:\/\/digitsound.com.ng\/radio-show\/talk-ya-mind\/",
+	"status": "publish",
+	"title": "Talk Ya Mind",
+	"title_plain": "Talk Ya Mind",
+	"content": "<p>Talk Ya Mind is a pidgin comic talk show that brings the light and everyday experience and give it a comic perspective. It is aired every Friday, \u00a01:00 &#8211; 1:45 pm and hosted by Mc Wydamaut<\/p>\n",
+	"excerpt": "<p>Talk Ya Mind is a pidgin comic talk show that brings the light and everyday experience and give it a comic perspective. It is aired every Friday, \u00a01:00 &#8211; 1:45 pm and hosted by Mc Wydamaut<\/p>\n",
+	"date": "2017-07-04 13:08:25",
+	"modified": "2021-02-18 14:06:40",
+	"categories": [],
+	"tags": [],
+	"author": {
+		"id": 3,
+		"slug": "ahanonuchimdinma",
+		"name": "chimdinma ahanonu",
+		"first_name": "chimdinma",
+		"last_name": "ahanonu",
+		"nickname": "ahanonuchimdinma",
+		"url": "",
+		"description": ""
+	},
+	"comments": [],
+	"attachments": [{
+		"id": 1344,
+		"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/Talk-Ya-Mind-2.jpg",
+		"slug": "talk-ya-mind-2",
+		"title": "Talk Ya Mind 2",
+		"description": "",
+		"caption": "",
+		"parent": 1112,
+		"mime_type": "image\/jpeg",
+		"images": {
+			"full": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/Talk-Ya-Mind-2.jpg",
+				"width": 365,
+				"height": 318
+			},
+			"thumbnail": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/Talk-Ya-Mind-2-150x150.jpg",
+				"width": 150,
+				"height": 150
+			},
+			"medium": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/Talk-Ya-Mind-2-300x261.jpg",
+				"width": 300,
+				"height": 261
+			},
+			"medium_large": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/Talk-Ya-Mind-2.jpg",
+				"width": 365,
+				"height": 318
+			},
+			"large": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/Talk-Ya-Mind-2.jpg",
+				"width": 365,
+				"height": 318
+			},
+			"1536x1536": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/Talk-Ya-Mind-2.jpg",
+				"width": 365,
+				"height": 318
+			},
+			"2048x2048": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/Talk-Ya-Mind-2.jpg",
+				"width": 365,
+				"height": 318
+			},
+			"post-thumbnail": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/Talk-Ya-Mind-2.jpg",
+				"width": 365,
+				"height": 318
+			},
+			"mesh_blog": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/Talk-Ya-Mind-2-350x318.jpg",
+				"width": 350,
+				"height": 318
+			},
+			"mesh_photo_album_cover": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/Talk-Ya-Mind-2.jpg",
+				"width": 365,
+				"height": 318
+			},
+			"mesh_photo_album_single": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/Talk-Ya-Mind-2.jpg",
+				"width": 365,
+				"height": 318
+			},
+			"mesh_event": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/Talk-Ya-Mind-2.jpg",
+				"width": 365,
+				"height": 318
+			}
+		}
+	}, {
+		"id": 1649,
+		"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/talk-Ya-Mind-dp.jpg",
+		"slug": "talk-ya-mind-dp",
+		"title": "talk Ya Mind dp",
+		"description": "",
+		"caption": "",
+		"parent": 1112,
+		"mime_type": "image\/jpeg",
+		"images": {
+			"full": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/talk-Ya-Mind-dp.jpg",
+				"width": 1080,
+				"height": 1080
+			},
+			"thumbnail": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/talk-Ya-Mind-dp-150x150.jpg",
+				"width": 150,
+				"height": 150
+			},
+			"medium": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/talk-Ya-Mind-dp-300x300.jpg",
+				"width": 300,
+				"height": 300
+			},
+			"medium_large": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/talk-Ya-Mind-dp-768x768.jpg",
+				"width": 768,
+				"height": 768
+			},
+			"large": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/talk-Ya-Mind-dp-1024x1024.jpg",
+				"width": 1024,
+				"height": 1024
+			},
+			"1536x1536": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/talk-Ya-Mind-dp.jpg",
+				"width": 1080,
+				"height": 1080
+			},
+			"2048x2048": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/talk-Ya-Mind-dp.jpg",
+				"width": 1080,
+				"height": 1080
+			},
+			"post-thumbnail": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/talk-Ya-Mind-dp-500x500.jpg",
+				"width": 500,
+				"height": 500
+			},
+			"mesh_blog": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/talk-Ya-Mind-dp-350x350.jpg",
+				"width": 350,
+				"height": 350
+			},
+			"mesh_photo_album_cover": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/talk-Ya-Mind-dp-600x600.jpg",
+				"width": 600,
+				"height": 600
+			},
+			"mesh_photo_album_single": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/talk-Ya-Mind-dp-745x351.jpg",
+				"width": 745,
+				"height": 351
+			},
+			"mesh_event": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/talk-Ya-Mind-dp-500x500.jpg",
+				"width": 500,
+				"height": 500
+			}
+		}
+	}],
+	"comment_count": 0,
+	"comment_status": "closed",
+	"thumbnail": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/talk-Ya-Mind-dp-500x500.jpg",
+	"custom_fields": {
+		"radio_show_host": ["Kemigee & Joshua"],
+		"radio_show_recurring_days": ["fri"],
+		"radio_show_recurring_from": ["12:00"],
+		"radio_show_recurring_to": ["12:45"],
+		"is-cover-image-fixed": ["0"],
+		"cover-size": ["lg"],
+		"hide-footer": ["0"],
+		"sidebar": ["on"],
+		"slide_template": ["default"]
+	},
+	"thumbnail_size": "post-thumbnail",
+	"thumbnail_images": {
+		"full": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/talk-Ya-Mind-dp.jpg",
+			"width": 1080,
+			"height": 1080
+		},
+		"thumbnail": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/talk-Ya-Mind-dp-150x150.jpg",
+			"width": 150,
+			"height": 150
+		},
+		"medium": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/talk-Ya-Mind-dp-300x300.jpg",
+			"width": 300,
+			"height": 300
+		},
+		"medium_large": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/talk-Ya-Mind-dp-768x768.jpg",
+			"width": 768,
+			"height": 768
+		},
+		"large": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/talk-Ya-Mind-dp-1024x1024.jpg",
+			"width": 1024,
+			"height": 1024
+		},
+		"1536x1536": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/talk-Ya-Mind-dp.jpg",
+			"width": 1080,
+			"height": 1080
+		},
+		"2048x2048": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/talk-Ya-Mind-dp.jpg",
+			"width": 1080,
+			"height": 1080
+		},
+		"post-thumbnail": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/talk-Ya-Mind-dp-500x500.jpg",
+			"width": 500,
+			"height": 500
+		},
+		"mesh_blog": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/talk-Ya-Mind-dp-350x350.jpg",
+			"width": 350,
+			"height": 350
+		},
+		"mesh_photo_album_cover": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/talk-Ya-Mind-dp-600x600.jpg",
+			"width": 600,
+			"height": 600
+		},
+		"mesh_photo_album_single": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/talk-Ya-Mind-dp-745x351.jpg",
+			"width": 745,
+			"height": 351
+		},
+		"mesh_event": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/talk-Ya-Mind-dp-500x500.jpg",
+			"width": 500,
+			"height": 500
+		}
+	},
+	"taxonomy_show-category": [{
+		"id": 8,
+		"slug": "commercial",
+		"title": "Commercial",
+		"description": "",
+		"parent": 0,
+		"post_count": 1
+	}, {
+		"id": 11,
+		"slug": "live-shows",
+		"title": "Live Shows",
+		"description": "",
+		"parent": 0,
+		"post_count": 5
+	}]
+}, {
+	"id": 1122,
+	"type": "radio-show",
+	"slug": "the-dice-live",
+	"url": "https:\/\/digitsound.com.ng\/radio-show\/the-dice-live\/",
+	"status": "publish",
+	"title": "The Dice",
+	"title_plain": "The Dice",
+	"content": "<p>The Dice \u00a0is an over the top fun show which focuses on showcasing relatively *unknown* but hardworking artistes.<br \/>\nWe receive songs from any artiste, sieve, play and rate the song, thereby exposing them to the listeners. It airs every Monday to Thursday, 1:00pm-2:00pm and hosted by Edword and JustRotimi.<\/p>\n<p>The Dice [Live] airs every last Wednesday of the month by, 1:00pm<\/p>\n<p>&nbsp;<\/p>\n",
+	"excerpt": "<p>The Dice \u00a0is an over the top fun show which focuses on showcasing relatively *unknown* but hardworking artistes. We receive songs from any artiste, sieve, play and rate the song, thereby exposing them to the listeners. It airs every Monday to Thursday, 1:00pm-2:00pm and hosted by Edword and JustRotimi. The Dice [Live] airs every last [&hellip;]<\/p>\n",
+	"date": "2017-07-04 14:21:27",
+	"modified": "2017-07-31 13:11:27",
+	"categories": [],
+	"tags": [],
+	"author": {
+		"id": 3,
+		"slug": "ahanonuchimdinma",
+		"name": "chimdinma ahanonu",
+		"first_name": "chimdinma",
+		"last_name": "ahanonu",
+		"nickname": "ahanonuchimdinma",
+		"url": "",
+		"description": ""
+	},
+	"comments": [],
+	"attachments": [{
+		"id": 1246,
+		"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/EDDY-N-ROTIMI.jpg",
+		"slug": "eddy-n-rotimi",
+		"title": "EdWORD N JustRotimi",
+		"description": "",
+		"caption": "",
+		"parent": 1122,
+		"mime_type": "image\/jpeg",
+		"images": {
+			"full": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/EDDY-N-ROTIMI.jpg",
+				"width": 803,
+				"height": 615
+			},
+			"thumbnail": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/EDDY-N-ROTIMI-150x150.jpg",
+				"width": 150,
+				"height": 150
+			},
+			"medium": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/EDDY-N-ROTIMI-300x230.jpg",
+				"width": 300,
+				"height": 230
+			},
+			"medium_large": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/EDDY-N-ROTIMI-768x588.jpg",
+				"width": 768,
+				"height": 588
+			},
+			"large": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/EDDY-N-ROTIMI.jpg",
+				"width": 803,
+				"height": 615
+			},
+			"1536x1536": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/EDDY-N-ROTIMI.jpg",
+				"width": 803,
+				"height": 615
+			},
+			"2048x2048": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/EDDY-N-ROTIMI.jpg",
+				"width": 803,
+				"height": 615
+			},
+			"post-thumbnail": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/EDDY-N-ROTIMI-500x383.jpg",
+				"width": 500,
+				"height": 383
+			},
+			"mesh_blog": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/EDDY-N-ROTIMI-350x350.jpg",
+				"width": 350,
+				"height": 350
+			},
+			"mesh_photo_album_cover": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/EDDY-N-ROTIMI-600x600.jpg",
+				"width": 600,
+				"height": 600
+			},
+			"mesh_photo_album_single": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/EDDY-N-ROTIMI-745x351.jpg",
+				"width": 745,
+				"height": 351
+			},
+			"mesh_event": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/EDDY-N-ROTIMI-500x383.jpg",
+				"width": 500,
+				"height": 383
+			}
+		}
+	}],
+	"comment_count": 0,
+	"comment_status": "open",
+	"thumbnail": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/EDDY-N-ROTIMI-500x383.jpg",
+	"custom_fields": {
+		"radio_show_host": ["Edword and JustRotimi"],
+		"radio_show_recurring_days": ["wed", "mon", "tue", "thu"],
+		"radio_show_recurring_from": ["13:00"],
+		"radio_show_recurring_to": ["14:00"],
+		"is-cover-image-fixed": ["0"],
+		"cover-size": ["lg"],
+		"hide-footer": ["0"],
+		"sidebar": ["on"],
+		"slide_template": ["default"]
+	},
+	"thumbnail_size": "post-thumbnail",
+	"thumbnail_images": {
+		"full": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/EDDY-N-ROTIMI.jpg",
+			"width": 803,
+			"height": 615
+		},
+		"thumbnail": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/EDDY-N-ROTIMI-150x150.jpg",
+			"width": 150,
+			"height": 150
+		},
+		"medium": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/EDDY-N-ROTIMI-300x230.jpg",
+			"width": 300,
+			"height": 230
+		},
+		"medium_large": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/EDDY-N-ROTIMI-768x588.jpg",
+			"width": 768,
+			"height": 588
+		},
+		"large": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/EDDY-N-ROTIMI.jpg",
+			"width": 803,
+			"height": 615
+		},
+		"1536x1536": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/EDDY-N-ROTIMI.jpg",
+			"width": 803,
+			"height": 615
+		},
+		"2048x2048": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/EDDY-N-ROTIMI.jpg",
+			"width": 803,
+			"height": 615
+		},
+		"post-thumbnail": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/EDDY-N-ROTIMI-500x383.jpg",
+			"width": 500,
+			"height": 383
+		},
+		"mesh_blog": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/EDDY-N-ROTIMI-350x350.jpg",
+			"width": 350,
+			"height": 350
+		},
+		"mesh_photo_album_cover": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/EDDY-N-ROTIMI-600x600.jpg",
+			"width": 600,
+			"height": 600
+		},
+		"mesh_photo_album_single": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/EDDY-N-ROTIMI-745x351.jpg",
+			"width": 745,
+			"height": 351
+		},
+		"mesh_event": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/EDDY-N-ROTIMI-500x383.jpg",
+			"width": 500,
+			"height": 383
+		}
+	},
+	"taxonomy_show-category": [{
+		"id": 11,
+		"slug": "live-shows",
+		"title": "Live Shows",
+		"description": "",
+		"parent": 0,
+		"post_count": 5
+	}, {
+		"id": 9,
+		"slug": "talent-inspirational",
+		"title": "Talent &amp; Inspirational",
+		"description": "",
+		"parent": 0,
+		"post_count": 1
+	}]
+}, {
+	"id": 1124,
+	"type": "radio-show",
+	"slug": "heart-2-heart-live",
+	"url": "https:\/\/digitsound.com.ng\/radio-show\/heart-2-heart-live\/",
+	"status": "publish",
+	"title": "Heart 2 Heart Live",
+	"title_plain": "Heart 2 Heart Live",
+	"content": "<p>&#8220;Emotional Issues are deep issues. Every day we are faced with tough and difficult decisions. The most impactful are heart felt decisions that bothers around Love and marriage. H2H live will offer an opportunity for you to interact with seasoned counselors and get wisdom to solve complex relationship challenges.<br \/>\nIt will air live every Friday 3-4pm.<br \/>\nReal People&#8230;Real issues&#8230;Real Solutions!&#8221;<\/p>\n",
+	"excerpt": "<p>&#8220;Emotional Issues are deep issues. Every day we are faced with tough and difficult decisions. The most impactful are heart felt decisions that bothers around Love and marriage. H2H live will offer an opportunity for you to interact with seasoned counselors and get wisdom to solve complex relationship challenges. It will air live every Friday [&hellip;]<\/p>\n",
+	"date": "2017-07-04 14:32:58",
+	"modified": "2021-02-18 14:05:03",
+	"categories": [],
+	"tags": [],
+	"author": {
+		"id": 3,
+		"slug": "ahanonuchimdinma",
+		"name": "chimdinma ahanonu",
+		"first_name": "chimdinma",
+		"last_name": "ahanonu",
+		"nickname": "ahanonuchimdinma",
+		"url": "",
+		"description": ""
+	},
+	"comments": [],
+	"attachments": [{
+		"id": 1125,
+		"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/papadee.jpg",
+		"slug": "papadee",
+		"title": "papadee",
+		"description": "",
+		"caption": "",
+		"parent": 1124,
+		"mime_type": "image\/jpeg",
+		"images": {
+			"full": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/papadee.jpg",
+				"width": 480,
+				"height": 480
+			},
+			"thumbnail": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/papadee-150x150.jpg",
+				"width": 150,
+				"height": 150
+			},
+			"medium": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/papadee-300x300.jpg",
+				"width": 300,
+				"height": 300
+			},
+			"medium_large": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/papadee.jpg",
+				"width": 480,
+				"height": 480
+			},
+			"large": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/papadee.jpg",
+				"width": 480,
+				"height": 480
+			},
+			"1536x1536": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/papadee.jpg",
+				"width": 480,
+				"height": 480
+			},
+			"2048x2048": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/papadee.jpg",
+				"width": 480,
+				"height": 480
+			},
+			"post-thumbnail": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/papadee.jpg",
+				"width": 480,
+				"height": 480
+			},
+			"mesh_blog": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/papadee-350x350.jpg",
+				"width": 350,
+				"height": 350
+			},
+			"mesh_photo_album_cover": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/papadee.jpg",
+				"width": 480,
+				"height": 480
+			},
+			"mesh_photo_album_single": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/papadee-480x351.jpg",
+				"width": 480,
+				"height": 351
+			},
+			"mesh_event": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/papadee.jpg",
+				"width": 480,
+				"height": 480
+			}
+		}
+	}, {
+		"id": 1648,
+		"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/h2h.jpg",
+		"slug": "h2h-2",
+		"title": "h2h",
+		"description": "",
+		"caption": "",
+		"parent": 1124,
+		"mime_type": "image\/jpeg",
+		"images": {
+			"full": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/h2h.jpg",
+				"width": 1080,
+				"height": 1080
+			},
+			"thumbnail": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/h2h-150x150.jpg",
+				"width": 150,
+				"height": 150
+			},
+			"medium": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/h2h-300x300.jpg",
+				"width": 300,
+				"height": 300
+			},
+			"medium_large": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/h2h-768x768.jpg",
+				"width": 768,
+				"height": 768
+			},
+			"large": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/h2h-1024x1024.jpg",
+				"width": 1024,
+				"height": 1024
+			},
+			"1536x1536": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/h2h.jpg",
+				"width": 1080,
+				"height": 1080
+			},
+			"2048x2048": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/h2h.jpg",
+				"width": 1080,
+				"height": 1080
+			},
+			"post-thumbnail": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/h2h-500x500.jpg",
+				"width": 500,
+				"height": 500
+			},
+			"mesh_blog": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/h2h-350x350.jpg",
+				"width": 350,
+				"height": 350
+			},
+			"mesh_photo_album_cover": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/h2h-600x600.jpg",
+				"width": 600,
+				"height": 600
+			},
+			"mesh_photo_album_single": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/h2h-745x351.jpg",
+				"width": 745,
+				"height": 351
+			},
+			"mesh_event": {
+				"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/h2h-500x500.jpg",
+				"width": 500,
+				"height": 500
+			}
+		}
+	}],
+	"comment_count": 0,
+	"comment_status": "closed",
+	"thumbnail": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/h2h-500x500.jpg",
+	"custom_fields": {
+		"radio_show_host": ["Papadee"],
+		"radio_show_recurring_days": ["fri"],
+		"radio_show_recurring_from": ["15:00"],
+		"radio_show_recurring_to": ["16:00"],
+		"is-cover-image-fixed": ["0"],
+		"cover-size": ["lg"],
+		"hide-footer": ["0"],
+		"sidebar": ["on"],
+		"slide_template": ["default"]
+	},
+	"thumbnail_size": "post-thumbnail",
+	"thumbnail_images": {
+		"full": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/h2h.jpg",
+			"width": 1080,
+			"height": 1080
+		},
+		"thumbnail": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/h2h-150x150.jpg",
+			"width": 150,
+			"height": 150
+		},
+		"medium": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/h2h-300x300.jpg",
+			"width": 300,
+			"height": 300
+		},
+		"medium_large": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/h2h-768x768.jpg",
+			"width": 768,
+			"height": 768
+		},
+		"large": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/h2h-1024x1024.jpg",
+			"width": 1024,
+			"height": 1024
+		},
+		"1536x1536": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/h2h.jpg",
+			"width": 1080,
+			"height": 1080
+		},
+		"2048x2048": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/h2h.jpg",
+			"width": 1080,
+			"height": 1080
+		},
+		"post-thumbnail": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/h2h-500x500.jpg",
+			"width": 500,
+			"height": 500
+		},
+		"mesh_blog": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/h2h-350x350.jpg",
+			"width": 350,
+			"height": 350
+		},
+		"mesh_photo_album_cover": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/h2h-600x600.jpg",
+			"width": 600,
+			"height": 600
+		},
+		"mesh_photo_album_single": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/h2h-745x351.jpg",
+			"width": 745,
+			"height": 351
+		},
+		"mesh_event": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/h2h-500x500.jpg",
+			"width": 500,
+			"height": 500
+		}
+	},
+	"taxonomy_show-category": [{
+		"id": 11,
+		"slug": "live-shows",
+		"title": "Live Shows",
+		"description": "",
+		"parent": 0,
+		"post_count": 5
+	}, {
+		"id": 5,
+		"slug": "relationship",
+		"title": "Relationship",
+		"description": "",
+		"parent": 0,
+		"post_count": 3
+	}]
+}, {
+	"id": 1126,
+	"type": "radio-show",
+	"slug": "pillow-talk-2",
+	"url": "https:\/\/digitsound.com.ng\/radio-show\/pillow-talk-2\/",
+	"status": "publish",
+	"title": "Pillow Talk",
+	"title_plain": "Pillow Talk",
+	"content": "<p>&#8220;Pillow Talk&#8217; is designed to help married couples navigate easily the intimate and erotic pathways of their marital adventure. It will be hot, sizzling, down to earth and real.<br \/>\nThere will be experienced panels in the fields of Marriage and intimacy and moderated by Papadee.<br \/>\nEvery Friday and Saturday 9-10pm prompt.<br \/>\nDon&#8217;t miss it&#8230;&#8221;<\/p>\n",
+	"excerpt": "<p>&#8220;Pillow Talk&#8217; is designed to help married couples navigate easily the intimate and erotic pathways of their marital adventure. It will be hot, sizzling, down to earth and real. There will be experienced panels in the fields of Marriage and intimacy and moderated by Papadee. Every Friday and Saturday 9-10pm prompt. Don&#8217;t miss it&#8230;&#8221;<\/p>\n",
+	"date": "2017-07-04 14:41:11",
+	"modified": "2017-07-04 14:41:11",
+	"categories": [],
+	"tags": [],
+	"author": {
+		"id": 3,
+		"slug": "ahanonuchimdinma",
+		"name": "chimdinma ahanonu",
+		"first_name": "chimdinma",
+		"last_name": "ahanonu",
+		"nickname": "ahanonuchimdinma",
+		"url": "",
+		"description": ""
+	},
+	"comments": [],
+	"attachments": [],
+	"comment_count": 0,
+	"comment_status": "open",
+	"thumbnail": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/papadee.jpg",
+	"custom_fields": {
+		"radio_show_host": ["Papadee"],
+		"radio_show_recurring_days": ["fri"],
+		"radio_show_recurring_from": ["21:00"],
+		"radio_show_recurring_to": ["22:00"],
+		"is-cover-image-fixed": ["0"],
+		"cover-size": ["lg"],
+		"hide-footer": ["0"],
+		"sidebar": ["on"],
+		"slide_template": ["default"]
+	},
+	"thumbnail_size": "post-thumbnail",
+	"thumbnail_images": {
+		"full": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/papadee.jpg",
+			"width": 480,
+			"height": 480
+		},
+		"thumbnail": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/papadee-150x150.jpg",
+			"width": 150,
+			"height": 150
+		},
+		"medium": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/papadee-300x300.jpg",
+			"width": 300,
+			"height": 300
+		},
+		"medium_large": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/papadee.jpg",
+			"width": 480,
+			"height": 480
+		},
+		"large": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/papadee.jpg",
+			"width": 480,
+			"height": 480
+		},
+		"1536x1536": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/papadee.jpg",
+			"width": 480,
+			"height": 480
+		},
+		"2048x2048": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/papadee.jpg",
+			"width": 480,
+			"height": 480
+		},
+		"post-thumbnail": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/papadee.jpg",
+			"width": 480,
+			"height": 480
+		},
+		"mesh_blog": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/papadee-350x350.jpg",
+			"width": 350,
+			"height": 350
+		},
+		"mesh_photo_album_cover": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/papadee.jpg",
+			"width": 480,
+			"height": 480
+		},
+		"mesh_photo_album_single": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/papadee-480x351.jpg",
+			"width": 480,
+			"height": 351
+		},
+		"mesh_event": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2017\/07\/papadee.jpg",
+			"width": 480,
+			"height": 480
+		}
+	},
+	"taxonomy_show-category": [{
+		"id": 5,
+		"slug": "relationship",
+		"title": "Relationship",
+		"description": "",
+		"parent": 0,
+		"post_count": 3
+	}]
+}, {
+	"id": 1132,
+	"type": "radio-show",
+	"slug": "__trashed-3",
+	"url": "https:\/\/digitsound.com.ng\/radio-show\/__trashed-3\/",
+	"status": "publish",
+	"title": "Soul Food",
+	"title_plain": "Soul Food",
+	"content": "<p>Feed your spirit with a good dose of the word of God from powerful ministers every Monday to Friday, 7:15am.<\/p>\n",
+	"excerpt": "<p>Feed your spirit with a good dose of the word of God from powerful ministers every Monday to Friday, 7:15am.<\/p>\n",
+	"date": "2017-07-04 15:06:36",
+	"modified": "2017-07-04 15:46:33",
+	"categories": [],
+	"tags": [],
+	"author": {
+		"id": 3,
+		"slug": "ahanonuchimdinma",
+		"name": "chimdinma ahanonu",
+		"first_name": "chimdinma",
+		"last_name": "ahanonu",
+		"nickname": "ahanonuchimdinma",
+		"url": "",
+		"description": ""
+	},
+	"comments": [],
+	"attachments": [],
+	"comment_count": 0,
+	"comment_status": "open",
+	"thumbnail": null,
+	"custom_fields": {
+		"radio_show_host": ["Ministers"],
+		"radio_show_recurring_days": ["mon", "tue", "wed", "thu", "fri"],
+		"radio_show_recurring_from": ["07:00"],
+		"radio_show_recurring_to": ["07:15"],
+		"is-cover-image-fixed": ["0"],
+		"cover-size": ["lg"],
+		"hide-footer": ["0"],
+		"sidebar": ["on"],
+		"slide_template": ["default"]
+	},
+	"thumbnail_size": "post-thumbnail",
+	"thumbnail_images": {
+		"full": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2015\/05\/plane-DP.png",
+			"width": 500,
+			"height": 500
+		},
+		"thumbnail": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2015\/05\/plane-DP-150x150.png",
+			"width": 150,
+			"height": 150
+		},
+		"medium": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2015\/05\/plane-DP-300x300.png",
+			"width": 300,
+			"height": 300
+		},
+		"medium_large": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2015\/05\/plane-DP.png",
+			"width": 500,
+			"height": 500
+		},
+		"large": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2015\/05\/plane-DP.png",
+			"width": 500,
+			"height": 500
+		},
+		"1536x1536": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2015\/05\/plane-DP.png",
+			"width": 500,
+			"height": 500
+		},
+		"2048x2048": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2015\/05\/plane-DP.png",
+			"width": 500,
+			"height": 500
+		},
+		"mesh_photo_album_cover": {
+			"url": "https:\/\/digitsound.com.ng\/wp-content\/uploads\/2015\/05\/plane-DP.png",
+			"width": 500,
+			"height": 500
+		}
+	},
+	"taxonomy_show-category": [{
+		"id": 6,
+		"slug": "motivational",
+		"title": "Motivational",
+		"description": "",
+		"parent": 0,
+		"post_count": 2
+	}]
+}]

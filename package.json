@@ -9,7 +9,8 @@
     "test": "jest",
     "lint": "eslint .",
     "clean": "cd android && ./gradlew clean && cd ../",
-    "release": "cd android && ./gradlew bundleRelease && cd ../"
+    "release-android": "cd android && ./gradlew bundleRelease && cd ../",
+    "run-release": "react-native run-android --variant=release"
   },
   "dependencies": {
     "@bam.tech/react-native-make": "^3.0.0",

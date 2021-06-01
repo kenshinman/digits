@@ -6,3 +6,6 @@ yarn react-native generate-bootsplash assets/digits-logo.png \
 #generate appp icons
 yarn react-native set-icon --path assets/digits-logo.png --platform android --background #760606
 yarn react-native set-icon --path assets/digits-logo.png --platform ios 
+
+build android
+cd android && ./gradlew bundleRelease && cd ../

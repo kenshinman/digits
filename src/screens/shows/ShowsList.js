@@ -1,24 +1,33 @@
 import React from 'react';
 import {FlatList, Text, View} from 'react-native';
-import {useContext} from 'react/cjs/react.development';
 import FullScreen from '../../components/FullScreen';
 import ShowsListItem from '../../components/ShowsListItem';
-import {MainContext} from '../../contexts/MainContext';
+import data from '../../data.json';
 
 const ShowsList = () => {
-  const {data, isLoading} = useContext(MainContext);
+  const isLoading = false;
   if (isLoading) {
-    <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
-      <Text>Loading...</Text>
-    </View>;
+    return (
+      <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+        <Text>Loading...</Text>
+      </View>
+    );
   }
   return (
     <FullScreen>
       <FlatList
         keyExtractor={(item) => item.id.toString()}
-        data={data?.posts || []}
+        data={data}
         ItemSeparatorComponent={() => (
           <View style={{height: 1, backgroundColor: 'lightgrey'}} />
+        )}
+        ListEmptyComponent={() => (
+          <View
+            style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+            <Text style={{textAlign: 'center'}}>
+              You don't have any shows to view
+            </Text>
+          </View>
         )}
         renderItem={({item}) => {
           return <ShowsListItem show={item} />;
