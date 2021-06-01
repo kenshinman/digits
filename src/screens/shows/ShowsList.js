@@ -16,7 +16,7 @@ const ShowsList = () => {
     <FullScreen>
       <FlatList
         keyExtractor={(item) => item.id.toString()}
-        data={data.data.posts}
+        data={data?.posts || []}
         ItemSeparatorComponent={() => (
           <View style={{height: 1, backgroundColor: 'lightgrey'}} />
         )}

@@ -12,7 +12,6 @@ const routes = [
 ];
 
 const DrawerContent = ({navigation}) => {
-  console.log({navigation});
   return (
     <View style={styles.container}>
       <View style={styles.top}>

@@ -5,7 +5,7 @@ import TrackPlayer, {
   usePlaybackState,
   useTrackPlayerEvents,
 } from 'react-native-track-player';
-import {useQuery} from 'react-query';
+import useSWR from 'swr';
 
 export const MainContext = createContext();
 
@@ -14,9 +14,7 @@ const MainContextProvider = ({children}) => {
 
   const [track, setTrack] = useState({
     id: 'unique track id',
-
     url: 'https://digits1024radio1.radioca.st/stream',
-
     title: 'Digits 1024 Radio',
     artist: 'Digits Radio',
     album: 'Digits 1024 Radio',
@@ -29,16 +27,19 @@ const MainContextProvider = ({children}) => {
   const [trackArtist, setTrackArtist] = useState('');
   const [playing, setPlaying] = useState(false);
 
-  const {isLoading, error, data} = useQuery('shows', async () => {
-    return axios.get(
-      `https://digitsound.com.ng/?json=1&post_type=radio-show&order_by=title&order=ASC&count=-1`,
-    );
-  });
+  const path = `https://digitsound.com.ng/?json=1&post_type=radio-show&order_by=title&order=ASC&count=-1`;
+  const fetcher = (url) =>
+    axios
+      .get(url)
+      .then((res) => res.data)
+      .catch((error) => console.log(error));
+
+  const {data, error} = useSWR(path, fetcher);
 
   const setUp = async () => {
     await TrackPlayer.setupPlayer();
 
-    await TrackPlayer.updateOptions({
+    TrackPlayer.updateOptions({
       stopWithApp: true,
       dismissable: true,
       capabilities: [
@@ -65,15 +66,15 @@ const MainContextProvider = ({children}) => {
 
     await TrackPlayer.play();
 
-    await TrackPlayer.addEventListener('remote-pause', (event) => {
+    TrackPlayer.addEventListener('remote-pause', (event) => {
       TrackPlayer.pause();
     });
 
-    await TrackPlayer.addEventListener('remote-stop', (event) => {
+    TrackPlayer.addEventListener('remote-stop', (event) => {
       TrackPlayer.stop();
     });
 
-    await TrackPlayer.addEventListener('remote-play', (event) => {
+    TrackPlayer.addEventListener('remote-play', (event) => {
       TrackPlayer.play();
     });
   };
@@ -101,7 +102,6 @@ const MainContextProvider = ({children}) => {
   const init = async () => {
     await setUp();
     await play();
-    console.log('hey playing...');
   };
 
   useEffect(() => {
@@ -109,7 +109,6 @@ const MainContextProvider = ({children}) => {
   }, []);
 
   useEffect(() => {
-    console.log({playBackState});
     const isplaying = playBackState > 2 || playBackState === 'playing';
     setPlaying(isplaying);
   }, [playBackState]);
@@ -130,7 +129,7 @@ const MainContextProvider = ({children}) => {
         trackArtist,
         playing,
         data,
-        isLoading,
+        isLoading: !data && !error,
         error,
         playBackState,
       }}>

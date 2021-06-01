@@ -2,7 +2,6 @@ import React, {useEffect} from 'react';
 import {SafeAreaView, StatusBar, StyleSheet} from 'react-native';
 import RNBootSplash from 'react-native-bootsplash';
 import 'react-native-gesture-handler';
-import {QueryClient, QueryClientProvider} from 'react-query';
 import RootNavigation from './src/config/RootNavigation';
 import {colors} from './src/constants';
 import MainContextProvider from './src/contexts/MainContext';
@@ -22,8 +21,6 @@ var track = {
     'https://digitsound.com.ng/wp-content/uploads/2015/05/Great-Examples-of-Great-Sound-Design2.jpg', // Load artwork from the network
 };
 
-const queryClient = new QueryClient();
-
 const App = () => {
   useEffect(() => {
     const init = async () => {
@@ -32,19 +29,16 @@ const App = () => {
 
     init().finally(async () => {
       await RNBootSplash.hide({fade: true});
-      // console.log('Bootsplash has been hidden successfully');
     });
   }, []);
 
   return (
-    <QueryClientProvider client={queryClient}>
-      <MainContextProvider>
-        <SafeAreaView style={styles.container}>
-          <StatusBar barStyle="light-content" backgroundColor="#da2f34" />
-          <RootNavigation />
-        </SafeAreaView>
-      </MainContextProvider>
-    </QueryClientProvider>
+    <MainContextProvider>
+      <SafeAreaView style={styles.container}>
+        <StatusBar barStyle="light-content" backgroundColor="#da2f34" />
+        <RootNavigation />
+      </SafeAreaView>
+    </MainContextProvider>
   );
 };
 
